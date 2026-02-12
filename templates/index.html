@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+<div class="flex flex-col items-center justify-center min-h-screen">
+    <img src="{{ url_for('static', filename='img/float.png') }}" alt="FLOAT logo" class="mx-auto mb-5 w-1/4"> 
+
+    <h1 class="text-2xl pixel-font mb-1">
+        Welcome to FLOAT!
+    </h1> 
+        
+    <p class="text-2xl pixel-font mb-3">
+        Your personal note-taking assistant
+    </p> 
+    
+    <a href="{{ url_for('dashboard') }}" class="pixel-font bg-fuchsia-700 hover:bg-fuchsia-800 text-white font-bold py-2 px-4 rounded"> 
+        Go To Library! 
+    </a>
+</div>
+
+{% endblock %}

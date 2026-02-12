@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="min-h-screen bg-cover bg-center relative pixel-bg"
+    style="background-image: url('{{ url_for('static', filename='img/float_library_bg.png') }}');">
+
+    <img src="{{ url_for('static', filename='img/float.png') }}"
+     class="absolute left-1/2 -translate-x-1/2 top-[-22px] w-[280px]"
+     alt="FLOAT logo">
+
+        
+</div>
+
+
+
+{% endblock %}

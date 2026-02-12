@@ -1,0 +1,8 @@
+.pixel-font {
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: 1px;
+}
+
+.pixel-bg {
+    image-rendering: pixelated;
+}
